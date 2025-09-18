@@ -36,7 +36,7 @@ class HabitRepo {
     await db.delete('habits', where: 'id=?', whereArgs: [id]);
   }
 
-  // Logs
+  
   Future<void> upsertLog({
     required String habitId,
     required DateTime date,

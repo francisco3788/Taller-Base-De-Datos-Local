@@ -1,8 +1,8 @@
 class Habit {
-  final String id;        // uuid
-  final String title;     // "Beber agua"
-  final String goalType;  // 'bool' | 'count' | 'minutes'
-  final double goalValue; // 1 (bool), 8 vasos, 30 min
+  final String id;        
+  final String title;     
+  final String goalType;  
+  final double goalValue; 
   final DateTime createdAt;
 
   Habit({

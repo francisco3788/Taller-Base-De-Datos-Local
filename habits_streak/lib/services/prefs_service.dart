@@ -9,7 +9,7 @@ class PrefsService extends GetxService {
   bool get isDarkMode => box.get('darkMode', defaultValue: false) as bool;
   set isDarkMode(bool v) => box.put('darkMode', v);
 
-  // Config rápida para la app
+  
   int get defaultReminderHour => box.get('reminderHour', defaultValue: 20) as int;
   set defaultReminderHour(int v) => box.put('reminderHour', v);
 }

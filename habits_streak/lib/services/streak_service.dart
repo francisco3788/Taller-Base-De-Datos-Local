@@ -2,7 +2,7 @@ import 'package:intl/intl.dart';
 import '../data/models/habit_log.dart';
 
 class StreakService {
-  // Una racha cuenta días consecutivos con log >= mínimo
+  
   int computeStreak(List<HabitLog> logs, {double minValue = 1}) {
     if (logs.isEmpty) return 0;
     final byDay = <String, HabitLog>{};

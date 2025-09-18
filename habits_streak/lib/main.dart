@@ -9,10 +9,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
 
-  // Abrimos caja Hive para preferencias y estado ligero
-  await Hive.openBox('prefs'); // tema, idioma, últimos filtros, etc.
+  
+  await Hive.openBox('prefs'); 
 
-  // Init service de preferencias
+  
   Get.put(PrefsService());
 
   runApp(const HabitsApp());

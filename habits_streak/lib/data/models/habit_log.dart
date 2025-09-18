@@ -1,8 +1,8 @@
 class HabitLog {
-  final String id;         // uuid
-  final String habitId;    // fk
-  final DateTime date;     // sólo fecha (YYYY-MM-DD)
-  final double value;      // 1, 8, 30
+  final String id;         
+  final String habitId;    
+  final DateTime date;     
+  final double value;      
 
   HabitLog({
     required this.id,
